@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sean letters</title>
+		<script type="text/javascript" src="js/paper.js"></script>
+	</head>
+	<body>
+		<script type="text/paperscript" canvas="seancanvas">
+			var letter = new PointText(view.center);
+			letter.fillColor="black"
+			letter.content="Press a letter"
+			letter.scale(10);
+			letter.justification='center';
+
+			function onResize(event) {
+			    // Whenever the window is resized, recenter the path:
+			    letter.position = view.center;
+			}
+
+			function onKeyDown(event) {
+			    letter.content = event.key;
+			}
+		</script>
+		<canvas id="seancanvas" resize></canvas>
+	</body>
+</html>

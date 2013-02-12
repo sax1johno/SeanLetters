@@ -1,0 +1,59 @@
+#container {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.jungle {
+    background-image: url('../img/jungle_bkg.jpg');
+}
+
+.snow {
+    background-image: url('../img/winter_bkg.jpg');
+}
+
+.silly {
+    background-image: url("../img/sunset.jpg");
+}
+
+#letter {
+    font-size: 500px;
+    font-family: arial;
+    
+}
+
+.jungle #letter {
+    font: 500px 'BubblegumSansRegular', Arial, sans-serif;
+    letter-spacing: 0;
+}
+
+.snow #letter {
+    font: 500px 'FauxSnowBRKRegular', Arial, sans-serif;
+    letter-spacing: 0;
+    margin-top: -300px;
+    color: blue;
+    text-shadow: -2px -10px 10px #FFf;
+    
+}
+
+.silly #letter {
+    font: 500px 'EfonRegular', Arial, sans-serif;
+    color: #a9db80;
+    letter-spacing: 0;
+    text-shadow: 5px 0px 10px #000;
+    /* background: #a9db80; /* Old browsers */
+    /* background: -moz-linear-gradient(top, #a9db80 0%, #96c56f 100%); /* FF3.6+ */
+    /* background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a9db80), color-stop(100%,#96c56f)); /* Chrome,Safari4+ */
+    /* background: -webkit-linear-gradient(top, #a9db80 0%,#96c56f 100%); /* Chrome10+,Safari5.1+ */
+    /* background: -o-linear-gradient(top, #a9db80 0%,#96c56f 100%); /* Opera 11.10+ */
+    /* background: -ms-linear-gradient(top, #a9db80 0%,#96c56f 100%); /* IE10+ */
+    /* background: linear-gradient(to bottom, #a9db80 0%,#96c56f 100%); /* W3C */
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9db80', endColorstr='#96c56f',GradientType=0 ); /* IE6-9 */
+}
+
+
+.sounds {
+    display: none;
+}
